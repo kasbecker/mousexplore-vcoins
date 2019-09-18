@@ -40,7 +40,7 @@ Setup a reverse proxy by editing the section with `location /` to:
 
 ```
 location / {
-    proxy_pass 127.0.0.1:8080;
+    proxy_pass http://127.0.0.1:8080;
 }
 ```
 
